@@ -125,7 +125,7 @@ namespace Api
                 {
                     var tokens = connectionUrl.ToConnectionTokens();
 
-                    return new NpgsqlConnectionStringBuilder()
+                    return new NpgsqlConnectionStringBuilder
                     {
                         Port = short.TryParse(tokens[ConnectionTokens.Port], out var port) ? port : 12345,
                         Host = tokens[ConnectionTokens.Host],
