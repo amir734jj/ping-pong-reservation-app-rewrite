@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using DataAccessLayer.Interfaces;
 using Domainlogic.Interfaces;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.parser;
-using Models;
 using Models.Models;
 
 namespace DomainLogic
