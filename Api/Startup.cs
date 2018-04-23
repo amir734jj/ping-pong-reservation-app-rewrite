@@ -139,7 +139,7 @@ namespace Api
                 {
                     if (Environment.GetEnvironmentVariables().Contains("DATABASE_URL"))
                     {
-                        x.UseNpgsql(postgreConnectionStringBuiglder(Environment.GetEnvironmentVariable("DATABASE_URL")));
+                        x.UseNpgsql(postgreConnectionStringBuilder(Environment.GetEnvironmentVariable("DATABASE_URL")));
                     }
                     else
                     {
