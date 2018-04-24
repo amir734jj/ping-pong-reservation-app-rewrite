@@ -12,7 +12,7 @@ namespace DataAccessLayer
     {
         private readonly Action<DbContextOptionsBuilder> _onConfiguring;
         
-        public Microsoft.EntityFrameworkCore.DbSet<RawReservation> RawPdfInfos { get; set; }
+        public Microsoft.EntityFrameworkCore.DbSet<RawReservation> Reservations { get; set; }
 
         /// <summary>
         /// Constructor that will be called by startup.cs
