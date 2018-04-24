@@ -80,8 +80,8 @@ namespace Api
                 //Metadata and configuration for the swagger client
                 c.SwaggerDoc("v1", new Info
                 {
-                    Title = "Title",
-                    Description = "Description",
+                    Title = "Ping pong app",
+                    Description = "Ping pong app description",
                     TermsOfService = "TermsOfService",
                     Contact = new Contact
                     {
@@ -92,9 +92,6 @@ namespace Api
                     Version = "v1"
                 });
 
-               // var filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "APIDocumentation.xml");
-                //c.IncludeXmlComments(filePath);
-                
                 c.DescribeAllEnumsAsStrings();
             });
 
@@ -140,6 +137,10 @@ namespace Api
                     if (Environment.GetEnvironmentVariables().Contains("DATABASE_URL"))
                     {
                         x.UseNpgsql(postgreConnectionStringBuilder(Environment.GetEnvironmentVariable("DATABASE_URL")));
+                    }
+                    else if (!string.IsNullOrEmpty(_configuration.GetConnectionString("SQL_CONNECTION_STRING")))
+                    {
+                        x.UseSqlServer(_configuration.GetConnectionString("SQL_CONNECTION_STRING"));
                     }
                     else
                     {

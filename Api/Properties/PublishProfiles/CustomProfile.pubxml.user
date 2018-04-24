@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://amir-asus-pc/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Api.deps.json">
+      <publishTime>04/23/2018 20:01:23</publishTime>
+    </File>
+    <File Include="Api.dll">
+      <publishTime>04/23/2018 20:01:18</publishTime>
+    </File>
+    <File Include="Api.pdb">
+      <publishTime>04/23/2018 20:01:18</publishTime>
+    </File>
+    <File Include="Api.PrecompiledViews.dll">
+      <publishTime>04/23/2018 20:01:23</publishTime>
+    </File>
+    <File Include="Api.PrecompiledViews.pdb">
+      <publishTime>04/23/2018 20:01:23</publishTime>
+    </File>
+    <File Include="Api.runtimeconfig.json">
+      <publishTime>04/23/2018 20:01:23</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>04/23/2018 19:39:19</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/23/2018 19:39:19</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>12/06/2017 15:08:08</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>11/16/2017 04:41:36</publishTime>
+    </File>
+    <File Include="DataAccessLayer.dll">
+      <publishTime>04/23/2018 20:00:50</publishTime>
+    </File>
+    <File Include="DataAccessLayer.pdb">
+      <publishTime>04/23/2018 20:00:50</publishTime>
+    </File>
+    <File Include="DomainLogic.dll">
+      <publishTime>04/23/2018 20:00:51</publishTime>
+    </File>
+    <File Include="DomainLogic.pdb">
+      <publishTime>04/23/2018 20:00:51</publishTime>
+    </File>
+    <File Include="dotnet-ef.dll">
+      <publishTime>04/18/2018 18:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.Design.dll">
+      <publishTime>11/15/2017 21:56:26</publishTime>
+    </File>
+    <File Include="Models.dll">
+      <publishTime>04/23/2018 20:00:48</publishTime>
+    </File>
+    <File Include="Models.pdb">
+      <publishTime>04/23/2018 20:00:48</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="Npgsql.dll">
+      <publishTime>02/27/2018 20:36:38</publishTime>
+    </File>
+    <File Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll">
+      <publishTime>07/25/2017 15:06:42</publishTime>
+    </File>
+    <File Include="Npgsql.EntityFrameworkCore.PostgreSQL.dll">
+      <publishTime>04/22/2018 10:16:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="StructureMap.dll">
+      <publishTime>01/17/2018 23:12:34</publishTime>
+    </File>
+    <File Include="StructureMap.Microsoft.DependencyInjection.dll">
+      <publishTime>08/25/2017 17:46:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.dll">
+      <publishTime>02/18/2018 01:02:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>02/18/2018 01:02:14</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>02/18/2018 01:02:16</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>02/18/2018 01:02:18</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/20/2017 18:09:04</publishTime>
+    </File>
+    <File Include="System.Data.SQLite.dll">
+      <publishTime>03/02/2018 07:51:26</publishTime>
+    </File>
+    <File Include="System.Data.SQLite.EF6.dll">
+      <publishTime>03/02/2018 07:51:30</publishTime>
+    </File>
+    <File Include="System.Data.SQLite.Linq.dll">
+      <publishTime>03/02/2018 07:51:30</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>04/23/2018 20:01:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
